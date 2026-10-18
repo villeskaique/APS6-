@@ -1,0 +1,115 @@
+﻿
+01:21:55 [INFO] Raiz do projeto: C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial
+01:21:55 [INFO] Log da instalacao: C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\instalar.log
+01:21:55 [INFO] Python minimo: 3.10.0
+01:21:55 [OK] Ambiente virtual ja existe: .venv (Python 3.13.16)
+01:21:55 [INFO] Atualizando pip, setuptools e wheel...
+01:21:55 [INFO] pip upgrade  ->  -m pip install --upgrade --disable-pip-version-check pip setuptools wheel
+01:21:56 [SAIDA]     Requirement already satisfied: pip in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (26.2.1)
+01:21:56 [SAIDA]     Requirement already satisfied: setuptools in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (84.0.0)
+01:21:56 [SAIDA]     Requirement already satisfied: wheel in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (0.48.0)
+01:21:56 [SAIDA]     Requirement already satisfied: packaging>=24.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from wheel) (26.3)
+01:21:57 [INFO] Dependencias extras: C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\dependencias-extras.txt
+01:21:57 [AVISO] A primeira instalacao pode levar alguns minutos (DeepFace, OpenCV, onnxruntime).
+01:21:57 [INFO] pip install -r requirements.txt  ->  -m pip install --disable-pip-version-check -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\dependencias-extras.txt
+01:21:58 [SAIDA]     Requirement already satisfied: deepface in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (0.0.102)
+01:21:58 [SAIDA]     Requirement already satisfied: opencv-contrib-python in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 2)) (5.0.0.93)
+01:21:58 [SAIDA]     Requirement already satisfied: fastapi in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (0.143.3)
+01:21:58 [SAIDA]     Requirement already satisfied: uvicorn in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 5)) (0.54.0)
+01:21:58 [SAIDA]     Requirement already satisfied: httpx2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 6)) (2.13.1)
+01:21:58 [SAIDA]     Requirement already satisfied: python-multipart>=0.0.9 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\dependencias-extras.txt (line 10)) (0.0.32)
+01:21:58 [SAIDA]     Requirement already satisfied: python-dotenv>=1.0.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\dependencias-extras.txt (line 14)) (1.2.4)
+01:21:58 [SAIDA]     Requirement already satisfied: psycopg[binary] in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from -r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 3)) (3.3.6)
+01:21:58 [SAIDA]     Requirement already satisfied: requests>=2.27.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2.34.2)
+01:21:58 [SAIDA]     Requirement already satisfied: numpy>=1.14.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2.5.4)
+01:21:58 [SAIDA]     Requirement already satisfied: gdown>=3.10.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (6.4.2)
+01:21:58 [SAIDA]     Requirement already satisfied: tqdm>=4.30.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (4.70.1)
+01:21:58 [SAIDA]     Requirement already satisfied: Pillow>=5.2.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (13.0.0)
+01:21:58 [SAIDA]     Requirement already satisfied: opencv-contrib-python-headless>=4.5.5.64 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (5.0.0.93)
+01:21:58 [SAIDA]     Requirement already satisfied: Flask>=1.1.2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.1.3)
+01:21:58 [SAIDA]     Requirement already satisfied: flask-cors>=4.0.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (6.0.5)
+01:21:58 [SAIDA]     Requirement already satisfied: fire>=0.4.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (0.7.1)
+01:21:58 [SAIDA]     Requirement already satisfied: gunicorn>=20.1.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (26.2.0)
+01:21:58 [SAIDA]     Requirement already satisfied: onnxruntime>=1.13.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (1.31.0)
+01:21:58 [SAIDA]     Requirement already satisfied: retina-face>=0.0.19 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (0.0.19)
+01:21:58 [SAIDA]     Requirement already satisfied: pandas>=0.23.4 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.0.6)
+01:21:58 [SAIDA]     Requirement already satisfied: tzdata in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from psycopg[binary]->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 3)) (2026.5)
+01:21:58 [SAIDA]     Requirement already satisfied: psycopg-binary==3.3.6 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from psycopg[binary]->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 3)) (3.3.6)
+01:21:58 [SAIDA]     Requirement already satisfied: starlette>=0.46.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (1.8.0)
+01:21:58 [SAIDA]     Requirement already satisfied: pydantic>=2.9.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (2.14.1)
+01:21:58 [SAIDA]     Requirement already satisfied: typing-extensions>=4.8.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (4.16.0)
+01:21:58 [SAIDA]     Requirement already satisfied: typing-inspection>=0.4.2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (0.4.4)
+01:21:58 [SAIDA]     Requirement already satisfied: annotated-doc>=0.0.2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (0.0.5)
+01:21:58 [SAIDA]     Requirement already satisfied: opentelemetry-api>=1.44.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (1.45.1)
+01:21:58 [SAIDA]     Requirement already satisfied: click>=7.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from uvicorn->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 5)) (8.5.0)
+01:21:58 [SAIDA]     Requirement already satisfied: h11>=0.8 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from uvicorn->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 5)) (0.16.0)
+01:21:58 [SAIDA]     Requirement already satisfied: anyio>=4.10 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from httpx2->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 6)) (4.15.1)
+01:21:58 [SAIDA]     Requirement already satisfied: httpcore2==2.13.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from httpx2->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 6)) (2.13.1)
+01:21:58 [SAIDA]     Requirement already satisfied: idna>=3.18 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from httpx2->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 6)) (3.20)
+01:21:58 [SAIDA]     Requirement already satisfied: truststore>=0.10 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from httpx2->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 6)) (0.10.5)
+01:21:58 [SAIDA]     Requirement already satisfied: termcolor in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from fire>=0.4.0->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.3.0)
+01:21:58 [SAIDA]     Requirement already satisfied: blinker>=1.9.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from Flask>=1.1.2->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (1.9.0)
+01:21:58 [SAIDA]     Requirement already satisfied: itsdangerous>=2.2.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from Flask>=1.1.2->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2.2.0)
+01:21:58 [SAIDA]     Requirement already satisfied: jinja2>=3.1.2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from Flask>=1.1.2->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.1.6)
+01:21:58 [SAIDA]     Requirement already satisfied: markupsafe>=2.1.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from Flask>=1.1.2->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.0.4)
+01:21:58 [SAIDA]     Requirement already satisfied: werkzeug>=3.1.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from Flask>=1.1.2->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.1.9)
+01:21:58 [SAIDA]     Requirement already satisfied: beautifulsoup4 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from gdown>=3.10.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (4.15.0)
+01:21:58 [SAIDA]     Requirement already satisfied: filelock in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from gdown>=3.10.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (4.2.1)
+01:21:58 [SAIDA]     Requirement already satisfied: urllib3 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from gdown>=3.10.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2.8.0)
+01:21:58 [SAIDA]     Requirement already satisfied: flatbuffers in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from onnxruntime>=1.13.0->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (25.12.19)
+01:21:58 [SAIDA]     Requirement already satisfied: packaging in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from onnxruntime>=1.13.0->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (26.3)
+01:21:58 [SAIDA]     Requirement already satisfied: protobuf>=4.25.8 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from onnxruntime>=1.13.0->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (7.36.2)
+01:21:58 [SAIDA]     Requirement already satisfied: python-dateutil>=2.8.2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from pandas>=0.23.4->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2.9.0.post0)
+01:21:58 [SAIDA]     Requirement already satisfied: annotated-types>=0.6.0 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from pydantic>=2.9.0->fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (0.8.0)
+01:21:58 [SAIDA]     Requirement already satisfied: pydantic-core==2.50.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from pydantic>=2.9.0->fastapi->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 4)) (2.50.1)
+01:21:58 [SAIDA]     Requirement already satisfied: six>=1.5 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from python-dateutil>=2.8.2->pandas>=0.23.4->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (1.17.0)
+01:21:58 [SAIDA]     Requirement already satisfied: charset_normalizer<4,>=2 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from requests>=2.27.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.5.2)
+01:21:58 [SAIDA]     Requirement already satisfied: certifi>=2023.5.7 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from requests>=2.27.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (2026.7.22)
+01:21:59 [SAIDA]     Requirement already satisfied: colorama in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from tqdm>=4.30.0->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (0.4.6)
+01:21:59 [SAIDA]     Requirement already satisfied: soupsieve>=1.6.1 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from beautifulsoup4->gdown>=3.10.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (3.0.3)
+01:21:59 [SAIDA]     Requirement already satisfied: PySocks!=1.5.7,>=1.5.6 in .\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.venv\Lib\site-packages (from requests[socks]->gdown>=3.10.1->deepface->-r C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\requirements.txt (line 1)) (1.7.1)
+01:21:59 [OK] Dependencias instaladas.
+01:21:59 [INFO] Validacao: import api  ->  -c import api
+01:22:02 [OK] Validacao de importacao: OK (modulo 'api' carregou).
+01:22:02 [OK] Arquivo .env ja existe (mantido como esta): C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\.env
+01:22:02 [OK] Docker ja esta em execucao.
+01:22:02 [AVISO] Removendo o container 'aps-postgres' (9532ea7a9f84) deixado por outra instalacao do Docker Compose.
+01:22:02 [AVISO] Os volumes com os dados do banco sao preservados.
+01:22:02 [INFO] docker rm -f 9532ea7a9f84  ->  rm -f 9532ea7a9f84
+    9532ea7a9f84
+01:22:03 [INFO] Recriando containers parados deste projeto...
+01:22:03 [INFO] docker compose down --remove-orphans  ->  compose -f C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\compose.yaml down --remove-orphans --timeout 10
+     Network aps-reconhecimento-facial_default Removing 
+     Network aps-reconhecimento-facial_default Removed 
+01:22:04 [INFO] docker compose up -d  ->  compose -f C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\compose.yaml up -d
+     Network aps-reconhecimento-facial_default Creating 
+     Network aps-reconhecimento-facial_default Creating 
+     Network aps-reconhecimento-facial_default Created 
+     Network aps-reconhecimento-facial_default Created 
+     Container aps-postgres Creating 
+     Container aps-postgres Created 
+     Container aps-postgres Starting 
+     Container aps-postgres Started 
+01:22:04 [INFO] Aguardando o container aps-postgres ficar pronto...
+01:22:06 [INFO] Estado do container: starting (1s)
+01:22:11 [OK] Container aps-postgres pronto.
+01:22:11 [INFO] docker cp inicializacao.sql  ->  cp C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\inicializacao.sql aps-postgres:/tmp/00_inicializacao.sql
+01:22:11 [INFO] psql -f inicializacao.sql  ->  exec aps-postgres psql -U aps_user -d aps_reconhecimento_facial -v ON_ERROR_STOP=1 -f /tmp/00_inicializacao.sql
+    CREATE TABLE
+    CREATE TABLE
+    psql:/tmp/00_inicializacao.sql:11: NOTICE:  relation "usuarios" already exists, skipping
+    psql:/tmp/00_inicializacao.sql:19: NOTICE:  relation "dados_ambientais" already exists, skipping
+    INSERT 0 0
+01:22:11 [OK] Aplicado: inicializacao.sql
+01:22:11 [INFO] docker cp 03_coluna_imagem.sql  ->  cp C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\sql\03_coluna_imagem.sql aps-postgres:/tmp/03_coluna_imagem.sql
+01:22:11 [INFO] psql -f 03_coluna_imagem.sql  ->  exec aps-postgres psql -U aps_user -d aps_reconhecimento_facial -v ON_ERROR_STOP=1 -f /tmp/03_coluna_imagem.sql
+    psql:/tmp/03_coluna_imagem.sql:10: NOTICE:  column "imagem" of relation "usuarios" already exists, skipping
+    ALTER TABLE
+    psql:/tmp/03_coluna_imagem.sql:23: NOTICE:  relation "usuarios" already exists, skipping
+    CREATE TABLE
+01:22:11 [OK] Aplicado: 03_coluna_imagem.sql
+01:22:11 [OK] Coluna usuarios.imagem (BYTEA) presente.
+01:22:11 [OK] Tabelas disponiveis: dados_ambientais, usuarios
+01:22:13 [OK] API em http://127.0.0.1:8000  (Ctrl+C para encerrar)
+01:22:13 [INFO] Log completo em: C:\Users\Villes Kaique\OneDrive\Área de Trabalho\APS\APS-Reconhecimento-Facial\instalador\instalar.log
+01:24:38 [AVISO] Aplicacao encerrada.

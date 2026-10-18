@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: aps-postgres
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: aps_reconhecimento_facial
+      POSTGRES_USER: aps_user
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aps_user -d aps_reconhecimento_facial"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

@@ -1,0 +1,14 @@
+# Dependencias ausentes no requirements.txt do projeto.
+#
+# Sao instaladas pelo instalador em conjunto com o requirements.txt, sem
+# alterar nenhum arquivo original do projeto.
+#
+# python-multipart: obrigatorio para o FastAPI aceitar os formularios
+#   multipart do endpoint POST /usuarios (campos Form e UploadFile).
+#   Sem ela a aplicacao nem inicia:
+#   RuntimeError: Form data requires "python-multipart" to be installed.
+python-multipart>=0.0.9
+
+# python-dotenv: usado por src/banco_dados.py para ler o arquivo .env.
+# (tambem vem como dependencia do deepface, mas fica explicito aqui)
+python-dotenv>=1.0.0

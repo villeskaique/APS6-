@@ -1,0 +1,6 @@
+deepface
+opencv-contrib-python
+psycopg[binary]
+fastapi
+uvicorn
+httpx2
